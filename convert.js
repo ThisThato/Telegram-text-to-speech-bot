@@ -4,8 +4,8 @@ require("dotenv").config();
 
 //Importing the speechToTextV1 and IamAuthenticator from Watson SDK
 const speechToText = new SpeechToTextV1({
-  authenticator: new IamAuthenticator({ apikey: process.env.IBM_API }),
-  serviceUrl: "https://api.us-south.speech-to-text.watson.cloud.ibm.com",
+  authenticator: new IamAuthenticator({ apikey: "iW265tkXesFlRlG8EK3-_4H8JjXXZqj8jHfDsBWCWuyE" }),
+  serviceUrl: "https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/314ef0da-bc0e-47d8-a179-d4dd52386b4a",
 });
 
 //function for tranlating text with IBM API
