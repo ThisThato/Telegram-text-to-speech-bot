@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Speech to text bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thato Motaung",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ibm-watson": "^6.0.2",
+    "telegraf": "^4.0.3"
+  }
+}
